@@ -9,7 +9,7 @@ else if(body.error){
     callback("Unable to find the weather information for the location! please search another",undefined)
 }
 else{
-    callback(undefined,body.current.weather_descriptions + " It is currently " + body.current.temperature +" °c "+ " and feels like " + body.current.feelslike+" °c")
+    callback(undefined,body.current.weather_descriptions+" . "+ "Humidity " +body.current.humidity+" . " + " It is currently " + body.current.temperature +" °c "+ " and feels like " + body.current.feelslike+" °c")
        
         
 }
