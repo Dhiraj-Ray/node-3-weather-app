@@ -17,12 +17,16 @@ footer{
 }
 header{
     font-size: 30px;
-    margin-bottom: 16px;
+    margin-bottom: 63px;
+}
+header h1{
+    margin-bottom: auto;
 }
 header a {
     color:indianred;
     padding-right:16px;
     text-decoration: none;
+    font-size: 20px;
 }
 .img{
     width: 250px;
